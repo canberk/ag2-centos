@@ -1,0 +1,16 @@
+$TTL 86400
+@	IN SOA  canberkozdemir-srv.canberkozdemir.com.     hostmaster.canberkozdemir.com. (               
+                                        42              ; serial
+                                        3H              ; refresh
+                                        15M             ; retry
+                                        1W              ; expiry
+                                        1D )            ; minimum
+                IN NS   canberkozdemir-srv
+localhost       IN A    127.0.0.1
+canberkozdemir-srv	IN A	10.20.30.120
+mail     	IN A    10.20.30.131
+obs     	IN A    10.20.30.132
+w3     		IN A    10.20.30.125
+web    		 IN A    10.20.30.126
+obs    		 IN A    10.20.30.127
+www		IN A 10.20.30.10

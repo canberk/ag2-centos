@@ -1,0 +1,17 @@
+$ORIGIN 30.20.10.in-addr.arpa.
+
+$TTL 1H
+
+@       IN      SOA     canberkozdemir.com.     hostmaster.canberkozdemir.com. ( 2
+                                                3H
+                                                1H
+                                                1W
+                                                1H )
+30.20.10.in-addr.arpa.         IN NS      root.canberkozdemir.com.
+120     IN PTR  canberkozdemir-srv.canberkozdemir.com
+131     IN PTR  mail.canberkozdemir.com
+132     IN PTR  obs.canberkozdemir.com
+125     IN PTR  w3.canberkozdemir.com
+126     IN PTR  web.canberkozdemir.com
+127     IN PTR  obs.canberkozdemir.com
+10	IN PTR 	www.canberkozdemir.com
